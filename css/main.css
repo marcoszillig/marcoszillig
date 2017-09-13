@@ -1,0 +1,137 @@
+@font-face {
+  font-family: Blackout;
+  src: url(../fonts/blackout_midnight-webfont.woff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1.5px;
+}
+
+html,
+body,
+section{
+  height: 100%;
+}
+
+#canvas{
+  background: -webkit-linear-gradient(rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%);
+  background: -o-linear-gradient(rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%);
+  background: linear-gradient(rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 );
+  background-attachment: fixed;
+}
+#projetos {
+  min-height: 100%; 
+}
+
+#contactMe { 
+  clear: both; 
+  background: #767B83;
+  background: -webkit-linear-gradient(#45484d 0%, #000000 100%);
+  background: -o-linear-gradient(#45484d 0%, #000000 100%);
+  background: linear-gradient(#45484d 0%, #000000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#767B83', endColorstr='#000000',GradientType=0 );
+}
+
+
+.container { 
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.icon {
+  color: #336699;
+  display: block;
+  position: absolute;  
+  right: 0;
+  left: 0;
+  width: 620px;
+  height: 370px;
+  margin: 15% auto 0;
+  text-align: center;
+  font-size: 100px;
+ }
+
+a:hover {
+ -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+a {  
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  text-decoration: none;
+}
+
+.cbp-af-header.cbp-af-header-shrink .active{
+  color: #fd5159;
+}
+
+@media screen and (max-width: 768px) {
+	#contactMe {
+     display: none;
+   }
+  
+  .cbp-af-header {
+     position: static;
+   }
+  
+  .cbp-af-header h1{
+     line-height: 70px;
+   }
+  
+  .cbp-af-header-shrink {
+    display: none;
+  }
+  
+  #socialTop {
+    right: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+	.subtitulo {
+     font-size: 24px;     
+     display: block;
+     text-align: center;
+     clear: both;     
+	}
+  
+  #sobre {
+    clear: both;
+  }
+  
+  #projetos ol {
+    position: static;
+    width: 100%;
+    height: auto;    
+  }
+  
+  .exemplos {
+    width: 100%;
+    height: 200px;
+  }
+  
+  	.perfil {
+     display: none;
+   }
+  
+ 	.sobreMim {
+     width: 100%;
+   }
+  
+   .cbp-af-header nav {
+    display: none;
+  }
+  
+  .icon {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-size: 24px;    
+  }   
+  
+}
