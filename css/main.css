@@ -65,6 +65,25 @@ a {
   transition: all .4s;
   text-decoration: none;
 }
+.canvasOpacity{
+  transition: opacity .1s;
+  opacity: .1;
+}
+
+.animatedTxt{opacity: .1;
+  animation: fadeAndScale .1s ease-in;
+}
+
+@keyframes fadeAndScale {
+  from {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+  to {
+    opacity: 0;
+    transform: scale3d(.5, .5, .5); 
+  }
+}
 
 .cbp-af-header.cbp-af-header-shrink .active{
   color: #fd5159;

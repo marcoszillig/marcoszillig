@@ -70,12 +70,12 @@
 }
 
 /* Transitions and class for reduced height */
-.cbp-af-header h1,
 .cbp-af-header nav a {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 }
+
 
 .cbp-af-header.cbp-af-header-shrink {
 	padding-top: 5px;
