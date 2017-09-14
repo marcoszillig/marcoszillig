@@ -108,7 +108,7 @@
 
 /*animação na navegação*/
 nav a {
-  font-family: 'Blackout', sans-serif; 
+  font-family: 'Montserrat', sans-serif; 
   font-weight: bold; 
 }
 
@@ -153,8 +153,8 @@ div.stroke a:hover:after{
 
 nav.fill a,
 div.fill a{
-  -webkit-transition: all .7s;
-  transition: all .7s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
   text-decoration: none;
 }
 
@@ -175,13 +175,26 @@ nav.fill a:hover::after,
 div.fill a:hover::after{
   z-index: -10;
   -webkit-animation: fill .4s forwards;
-  animation: fill .4s forwards;
+  animation: fill .3s forwards;
   opacity: 1;
 }
 
 /* Keyframes */
 @-webkit-keyframes fill {
-  0% {
+	from {
+	    width: 0%;
+	    height: 0;
+	    border: 0px solid rgba(19,19,19, .5);
+	    box-sizing: border-box;
+  	}
+	
+ 	to {
+	    width: 100%;
+	    height: 100%;
+	    border: 3px solid rgba(19,19,19, .5);
+	    box-sizing: border-box;
+  	}
+  /*0% {
     width: 0%;
     height: 0;
   }
@@ -195,5 +208,5 @@ div.fill a:hover::after{
     height: 100%;
     border: 3px solid rgba(19,19,19, .5);
     box-sizing: border-box;
-  }
+  }*/
 }
