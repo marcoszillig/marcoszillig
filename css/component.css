@@ -38,9 +38,9 @@
 	text-align: center;
 	letter-spacing: 2px;
 	font-size: 5em;
-	font-weight: bold;
+	font-weight: bolder;
 	margin: 0 auto;	
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
   	color: #fd5159;  	
   	box-sizing: border-box;
   	position: absolute;
@@ -49,6 +49,7 @@
 .main-title span{
 	padding: .5em 1em;
 	border: 8px solid rgba(19,19,19, .5);
+	text-shadow: 4px 4px 5px rgba(150, 150, 150, 1); 
 }
 
 .cbp-af-header nav {
