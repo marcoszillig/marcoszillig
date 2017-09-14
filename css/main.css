@@ -117,8 +117,8 @@ a {
   /*  float: none;  
     width: 100%;*/
     display: none;
-
   }
+
   /*.cbp-af-header nav a {
     line-height: 60px;
     color: #ddd;    
@@ -129,7 +129,10 @@ a {
     text-align: center;
   }*/
 	.main-title{
-    font-size: 2em;     
+    font-size: 2em;         
+  }
+  .main-title span{
+    padding: 2% 4%;
   }
 
   #contactMe{
@@ -181,9 +184,5 @@ a {
     right: 0;
     left: 0;
     text-align: center;
-  }    
-  
-  
-
-  
+  }      
 }
