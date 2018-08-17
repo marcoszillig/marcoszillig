@@ -10,7 +10,7 @@ $(document).ready(function(){
 		}, 500);
 	});
 	$('.main-title').on("click", function() {
-+        url = $(this).find('span').innerHTML();
++        url = $(this).find('span').html();
          alert(url);
        });
 //Link Ativo
