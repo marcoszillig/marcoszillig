@@ -9,7 +9,10 @@ $(document).ready(function(){
 			scrollTop: $(this.hash).offset().top
 		}, 500);
 	});
-
+	$('.main-title').on("click", function() {
++        url = $(this).find('span').innerHTML();
+         alert(url);
+       });
 //Link Ativo
 	$(window).scroll(function(){
 		var scrollbarLocation = $(this).scrollTop();
